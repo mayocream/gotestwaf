@@ -15,9 +15,9 @@ import (
 	"github.com/pkg/errors"
 	flag "github.com/spf13/pflag"
 	"github.com/spf13/viper"
-	"github.com/wallarm/gotestwaf/internal/data/config"
-	"github.com/wallarm/gotestwaf/internal/data/test"
-	"github.com/wallarm/gotestwaf/internal/scanner"
+	"github.com/mayocream/gotestwaf/internal/data/config"
+	"github.com/mayocream/gotestwaf/internal/data/test"
+	"github.com/mayocream/gotestwaf/internal/scanner"
 )
 
 const (

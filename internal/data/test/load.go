@@ -9,7 +9,7 @@ import (
 
 	"github.com/pkg/errors"
 	"gopkg.in/yaml.v2"
-	"github.com/wallarm/gotestwaf/internal/data/config"
+	"github.com/mayocream/gotestwaf/internal/data/config"
 )
 
 const testCaseExt = ".yml"

@@ -6,7 +6,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/wallarm/gotestwaf/internal/payload/encoder"
+	"github.com/mayocream/gotestwaf/internal/payload/encoder"
 )
 
 func SOAPBody(requestURL, payload string) (*http.Request, error) {

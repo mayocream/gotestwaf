@@ -13,9 +13,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/wallarm/gotestwaf/internal/data/config"
-	"github.com/wallarm/gotestwaf/internal/data/test"
-	"github.com/wallarm/gotestwaf/internal/payload/encoder"
+	"github.com/mayocream/gotestwaf/internal/data/config"
+	"github.com/mayocream/gotestwaf/internal/data/test"
+	"github.com/mayocream/gotestwaf/internal/payload/encoder"
 )
 
 const preCheckVector = "<script>alert('union select password from users')</script>"

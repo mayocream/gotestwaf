@@ -4,7 +4,7 @@ import (
 	"encoding/csv"
 	"os"
 
-	"github.com/wallarm/gotestwaf/internal/payload/encoder"
+	"github.com/mayocream/gotestwaf/internal/payload/encoder"
 )
 
 func (db *DB) ExportPayloads(payloadsExportFile string) error {

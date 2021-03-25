@@ -10,9 +10,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/wallarm/gotestwaf/internal/data/config"
-	"github.com/wallarm/gotestwaf/internal/payload/encoder"
-	"github.com/wallarm/gotestwaf/internal/payload/placeholder"
+	"github.com/mayocream/gotestwaf/internal/data/config"
+	"github.com/mayocream/gotestwaf/internal/payload/encoder"
+	"github.com/mayocream/gotestwaf/internal/payload/placeholder"
 )
 
 type HTTPClient struct {

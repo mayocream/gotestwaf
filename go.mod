@@ -1,6 +1,6 @@
-module github.com/wallarm/gotestwaf
+module github.com/mayocream/gotestwaf
 
-go 1.13
+go 1.16
 
 require (
 	github.com/blend/go-sdk v1.20210227.3 // indirect
